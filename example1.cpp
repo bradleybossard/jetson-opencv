@@ -1,6 +1,6 @@
 #include <opencv2/highgui/highgui.hpp>
 
-  int main() {
+int main() {
   cv::Mat img(512, 512, CV_8UC3, cv::Scalar(0));
   cv::putText(img, "Hello OpenCV on Jetson!",
       cv::Point(10, img.rows / 2),
